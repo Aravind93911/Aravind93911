@@ -59,11 +59,11 @@ const projectsGrid = document.getElementById('projects-grid');
 
 // Repository category mapping (customize based on your repo names/topics)
 const categoryMap = {
-    'linux-kernel-security-lab': ['kernel', 'security'],
-    'syzkaller-kernel-fuzz': ['kernel', 'security'],
+    'file-integrity-monitor': ['kernel', 'security'],
+    'web-vulnerablity-scanner': ['kernel', 'security'],
     'aosp-selinux-experiments': ['android', 'security'],
-    'android-security-tools': ['android', 'tools', 'security'],
-    'arm-security-mitigations': ['kernel', 'security'],
+    'penetration-toolkit': ['android', 'tools', 'security'],
+    '': ['kernel', 'security'],
     // Add more mappings for your repos
 };
 
